@@ -11,7 +11,10 @@ The sensors are shown below. These sensors periodically collect soil moisture da
 ![soilSensor](https://github.com/jrchen312/SoilMoistureMeter/blob/main/images/Sensor.jpeg)
 
 The PCBs for the sensors are shown below. These sensors use ATMega328p chips, and model the Arduino boards, except any excess power consuming components have been stripped. The board has a soil moisture sensor and a nrf24l01 radio, and is powered with two AA batteries. The ATMega chip is easily programmed with SPI by using the pin headers labeled "10, 11, 12, 13". 
+
 ![soilPCB](https://github.com/jrchen312/SoilMoistureMeter/blob/main/images/SensorPCB.png)
+
+
 
 Finally, the device is able to communicate with a Bluetooth app, which is able to display all of the data from the comfort of the user's smartphone/tablet. The app also has the capability of storing any extra data, displaying it in a chart.
 
